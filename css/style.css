@@ -1,0 +1,79 @@
+body{
+    background: rgb(118,147,158);
+    background: linear-gradient(90deg, rgba(118,147,158,1) 18%, rgba(97,136,136,1) 49%, rgba(212,215,217,1) 99%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form1{
+    background: rgb(85,162,163);
+    background: linear-gradient(90deg, rgba(85,162,163,1) 18%, rgba(24,101,120,1) 53%, rgba(40,96,182,1) 99%);
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    animation: controle 2s infinite alternate ease-in-out;
+}
+
+.img1 img{
+    padding: 25px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container{
+    flex-direction: column;
+   display: flex;
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-group:hover{
+    cursor: pointer;
+}
+
+
+
+.container button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 7%, rgba(1,212,255,1) 38%, rgba(18,55,71,1) 68%, rgba(37,173,209,1) 88%);
+
+}
+
+
+@keyframes controle{
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
+}
