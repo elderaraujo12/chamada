@@ -61,7 +61,7 @@ th {
 
 @keyframes controle{
   from {
-      transform: translate(-5%, -5%) rotate(-5deg);
+      transform: translate(5%, -5%) rotate(-10deg);
   }
 }
 
