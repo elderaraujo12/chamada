@@ -1,10 +1,10 @@
 from django.contrib import admin
-from .models import Cadastro_aluno
-from .models import Cadastro_funcionario
-from .models import Login
+from .models import Aluno
+from .models import Funcionario
 
-admin.site.register(Cadastro_aluno)
-admin.site.register(Cadastro_funcionario)
-admin.site.register(Login)
+
+admin.site.register(Aluno)
+admin.site.register(Funcionario)
+
 
 # Register your models here.
