@@ -55,7 +55,7 @@ body{
 
 
 
-.caixa1 button{
+.container button{
     padding: 10px;
     display: flex;
     justify-content: center;
