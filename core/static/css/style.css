@@ -15,7 +15,7 @@ body{
     display: flex;
     padding-top: 50px;
     padding-bottom: 25px;
-    margin: 50px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -36,8 +36,8 @@ body{
 
 .container{
     flex-direction: column;
-   display: flex;
-    margin: 50px;
+    display: flex;
+    margin: auto;
     padding: 50px;
     align-items: center;
     justify-content: center;
